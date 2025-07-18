@@ -32,7 +32,7 @@
 			{
 				"name": "hxcpp",
 				"link": "https://github.com/HaxeFoundation/hxcpp",
-				"branch": "8268ef2d518b1e7c8e8494114d0bdf6b5bc4147d"
+				"branch": "master"
 			},
 			{
 				"name": "hxvlc",
