@@ -36,8 +36,7 @@
 			},
 			{
 				"name": "hxvlc",
-				"link": "https://github.com/MAJigsaw77/hxvlc",
-				"branch": "main"
+				"version": "1.8.2"
 			},
 			{
 				"name": "lime",
