@@ -41,8 +41,8 @@
 			},
 			{
 				"name": "lime",
-				"link": "https://github.com/MaysLastPlays-Stuff/lime-h",
-				"branch": "main"
+				"link": "https://github.com/moxie-coder/lime-8.2.2",
+				"branch": "master"
 			},
 			{
 				"name": "openfl",
