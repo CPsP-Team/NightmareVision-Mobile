@@ -68,7 +68,7 @@ jobs:
           haxelib install hxcpp > nul
           haxelib install hxpkg --global
           haxelib run hxpkg setup --global
-          hxpkg install
+          haxelib run hxpkg install
           haxelib list
         shell: cmd
       - name: Compile
