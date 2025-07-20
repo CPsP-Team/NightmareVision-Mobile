@@ -42,16 +42,6 @@
 			{
 				"name": "lime",
 				"link": "https://github.com/moxie-coder/lime-8.2.2",
-				"branch": "develop"
-			},
-			{
-			    "name": "format",
-				"link": "https://github.com/HaxeFoundation/format",
-				"branch": "master"
-			},
-			{
-			    "name": "hxp",
-			    "link": "https://github.com/openfl/hxp",
 				"branch": "master"
 			},
 			{
