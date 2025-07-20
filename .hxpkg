@@ -41,8 +41,7 @@
 			},
 			{
 				"name": "lime",
-				"link": "https://github.com/openfl/lime",
-				"branch": "develop"
+				"version": "8.1.3"
 			},
 			{
 				"name": "openfl",
