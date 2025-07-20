@@ -36,11 +36,13 @@
 			},
 			{
 				"name": "hxvlc",
-				"version": "2.0.1"
+				"link": "https://github.com/MAJigsaw77/hxvlc",
+				"branch": "main"
 			},
 			{
 				"name": "lime",
-				"version": "8.1.3"
+				"link": "https://github.com/openfl/lime",
+				"branch": "develop"
 			},
 			{
 				"name": "openfl",
