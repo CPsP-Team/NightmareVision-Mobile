@@ -9,7 +9,7 @@
 			{
 			    "name": "extension-androidtools",
 				"link": "https://github.com/MAJigsaw77/extension-androidtools",
-				"branch":
+				"branch": "main"
 			},
 			{
 				"name": "flixel-addons",
