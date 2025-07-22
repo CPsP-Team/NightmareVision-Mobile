@@ -7,6 +7,11 @@
 				"version": "6.0.0"
 			},
 			{
+			    "name": "extension-androidtools",
+				"link": "https://github.com/MAJigsaw77/extension-androidtools",
+				"branch":
+			},
+			{
 				"name": "flixel-addons",
 				"version": "3.3.2"
 			},
@@ -40,7 +45,7 @@
 			},
 			{
 				"name": "lime",
-				"link": "https://github.com/MaysLastPlays-Stuff/lime-8.2.2",
+				"link": "https://github.com/GreenColdTea/lime-9.0.0",
 				"branch": "master"
 			},
 			{
