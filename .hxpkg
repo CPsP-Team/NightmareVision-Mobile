@@ -36,12 +36,11 @@
 			},
 			{
 				"name": "hxvlc",
-				"link": "https://github.com/MAJigsaw77/hxvlc",
-				"branch": "main"
+				"version": "1.8.2"
 			},
 			{
 				"name": "lime",
-				"link": "https://github.com/moxie-coder/lime-8.2.2",
+				"link": "https://github.com/MaysLastPlays-Stuff/lime-8.2.2",
 				"branch": "master"
 			},
 			{
