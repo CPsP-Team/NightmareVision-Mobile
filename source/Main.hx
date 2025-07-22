@@ -4,6 +4,7 @@ import openfl.Lib;
 import openfl.display.Sprite;
 import openfl.events.Event;
 import openfl.display.StageScaleMode;
+import haxe.io.Path;
 
 import flixel.FlxG;
 import flixel.FlxGame;
