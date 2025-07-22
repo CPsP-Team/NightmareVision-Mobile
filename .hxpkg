@@ -58,10 +58,6 @@
 				"branch": "daf0664aee99aa8b8d6bdd1eda993a1c3a399067"
 			},
 			{
-				"name": "discord_rpc",
-				"link": "https://github.com/Aidan63/linc_discord-rpc"
-			},
-			{
 				"name": "haxeui-flixel",
 				"link": "https://github.com/haxeui/haxeui-flixel.git",
 				"branch": "b899a4c7d7318c5ff2b1bb645fbc73728fad1ac9"
