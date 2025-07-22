@@ -1,4 +1,4 @@
-package;
+package funkin.mobile.input;
 
 import flixel.FlxG;
 

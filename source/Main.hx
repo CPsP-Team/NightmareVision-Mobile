@@ -43,7 +43,14 @@ class Main extends Sprite
 	public function new()
 	{
 		super();
-		
+
+		#if android
+		Sys.setCwd(Path.addTrailingSlash(MobileUtil.getDirectory()));
+		MobileUtil.getPermissions();
+	    #elseif ios
+		Sys.setCwd(lime.system.System.documentsDirectory);
+		#end
+
 		initHaxeUI();
 		
 		#if (windows && cpp)

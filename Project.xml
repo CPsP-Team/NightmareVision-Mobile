@@ -49,9 +49,9 @@
 	<!-- <define name="ASSET_REDIRECT" if="debug" /> -->
 	
 	<!--ENGINE CUSTOMIZATION-->
-	<define name="MODS_ALLOWED" if="desktop" />
-	<define name="LUA_ALLOWED" if="cpp" />
-	<define name="VIDEOS_ALLOWED" if="cpp" />
+	<define name="MODS_ALLOWED" if="desktop || mobile" />
+	<define name="LUA_ALLOWED" if="cpp || mobile" />
+	<define name="VIDEOS_ALLOWED" if="cpp || mobile" />
 	<define name="DISCORD_ALLOWED" if="cpp"/>
 
 	<assets path='assets/embeds' rename='assets' embed="true" />
@@ -160,6 +160,22 @@
 
 	<!--Disable the Flixel sound management code-->
 	<!--<haxedef name="FLX_NO_SOUND_SYSTEM" />-->
+
+	  <section if="android">
+	  <config:android permission="android.permission.MANAGE_MEDIA"/> 
+	  <config:android permission="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+	  <config:android permission="android.permission.READ_MEDIA_IMAGES"/>
+	  <config:android permission="android.permission.READ_MEDIA_AUDIO"/>
+	  <config:android permission="android.permission.READ_MEDIA_VIDEO"/>
+	  <config:android permission="android.permission.VIBRATE" />
+      <config:android permission="android.permission.INTERNET" />
+	  <config:android permission="android.permission.ACCESS_WIFI_STATE"/>
+      <config:android permission="android.permission.ACCESS_NETWORK_STATE" />
+	  <config:android permission="android.permission.CAPTURE_AUDIO_OUTPUT" />
+	  <android target-sdk-version="34" />
+	  <android min-sdk-version="19" />
+	  <certificate path="key.keystore" password="purgatoryPorting228" alias="Coolpeoplepurgatory" alias-password="purgatoryPorting228" unless="debug" />
+	  </section>
 
 	<!-- _________________________________ Custom _______________________________ -->
 
