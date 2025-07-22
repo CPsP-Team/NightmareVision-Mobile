@@ -29,6 +29,11 @@ import hxvlc.flixel.*;
 
 import Init;
 
+#if mobile
+import funkin.mobile.utils.*;
+import funkin.mobile.input.*;
+#end
+
 import funkin.Paths;
 import funkin.data.ClientPrefs;
 import funkin.data.Conductor;
