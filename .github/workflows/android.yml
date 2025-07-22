@@ -42,9 +42,9 @@ jobs:
       - name: Installing Libraries
         run: |
           haxelib setup ~/haxelib
-          haxelib install hxcpp 4.2.1 > /dev/null --quiet
-          haxelib install hmm --quiet
-          haxelib run hmm install
+          haxelib install hxpkg --global
+          haxelib run hxpkg setup --global
+          hxpkg install
 
       - name: Configure Android
         run: |
@@ -99,6 +99,6 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@main
         with:
-          name: Grandpa Death-Android
+          name: NightmareVision Engine-Android
           path: export/release/android/bin/app/build/outputs/apk/debug
           if-no-files-found: warn
