@@ -100,5 +100,5 @@ jobs:
         uses: actions/upload-artifact@main
         with:
           name: NightmareVision Engine-Android
-          path: export/release/android/bin/app/build/outputs/apk/debug
+          path: export/release/android/bin/app/build/outputs/apk/*
           if-no-files-found: warn
