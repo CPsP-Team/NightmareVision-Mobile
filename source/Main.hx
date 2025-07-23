@@ -80,7 +80,6 @@ class Main extends Sprite
 		
 		addChild(game);
 		
-		#if !mobile
 		fpsVar = new DebugDisplay(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
 		Lib.current.stage.align = "tl";
@@ -89,7 +88,6 @@ class Main extends Sprite
 		{
 			fpsVar.visible = ClientPrefs.showFPS;
 		}
-		#end
 		
 		#if html5
 		FlxG.autoPause = false;

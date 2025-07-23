@@ -333,6 +333,9 @@ class FunkinIris extends FunkinScript
 		set("SetEvent", funkin.game.modchart.events.SetEvent);
 		
 		set("GameOverSubstate", funkin.states.substates.GameOverSubstate);
+
+		// controls
+		set("TouchInput", funkin.mobile.input.TouchInput);
 		
 		if ((FlxG.state is PlayState) && PlayState.instance != null)
 		{
