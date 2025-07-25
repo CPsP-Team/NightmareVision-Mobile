@@ -1363,7 +1363,7 @@ class CharacterEditorState extends MusicBeatState
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
 			_file.save(data, daAnim + ".json");
 			#else
-			MobileUtil.save(data, daAnim + ".json);
+			MobileUtil.save(data, daAnim + ".json");
 			#end
 		}
 	}
