@@ -897,6 +897,7 @@ class DialogueCharacterEditorState extends MusicBeatState
 			_file.save(data, characterName + ".json");
 			#else
 			MobileUtil.save(data, characterName + ".json");
+			#end
 		}
 	}
 	
