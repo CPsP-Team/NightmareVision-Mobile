@@ -3904,6 +3904,7 @@ class ChartingState extends MusicBeatState
 			_file.save(data.trim(), "events.json");
 			#else
 			MobileUtil.save(data.trim(), "events.json");
+			#end
 		}
 	}
 	
